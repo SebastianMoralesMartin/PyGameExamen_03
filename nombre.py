@@ -8,7 +8,7 @@ import pygame
 # Ancho de las letras: 20 pixeles
 # espacios entre letras: 5 pixeles
 #separacion de palabra: 25 pixeles
-#La siguiente lista, conformada por 640 valores imprimen en pantalla el siguiente nombree: SEBASTIÁN MORALES MARTÍN
+#La siguiente lista, conformada por 304 valores imprimen en pantalla el siguiente nombree: SEBASTIÁN MORALES MARTÍN
 listaNumeros = [60,90,70,95,50,95,60,90,50, 95,70, 115,70, 115,60,120, 60, 120,50,
                 115,75, 120,75, 90,75,120,95, 120,75, 105,95, 105,75, 90,95,
                 90,100, 90,100, 120,100, 90,115,100,115,100,100,100,100,100,120,
@@ -64,7 +64,7 @@ def dibujar():
 
         # Borrar pantalla
         ventana.fill(NEGRO)
-        pygame.display.set_caption("Kill me pls")
+        pygame.display.set_caption("30% de mi EXAMEN esta aqui XD")
 
         # Dibujar, aquí haces todos los trazos que requieras
         dibujarNombre(ventana)
@@ -84,5 +84,5 @@ def main():
 
 main()
 
-print(max(listaNumeros))
+print('¡¡¡La lista tiene un total de :',len(listaNumeros),'números!!!')
 
